@@ -45,13 +45,6 @@ body {
     z-index: 100;
 }
 
-#menu-icon {
-    font-size: 3.6rem;
-    width: 3.6rem;
-    height: 3.6rem;
-    color: var(--text-color);
-    display: block;
-}
 
 .logo {
     font-size: 3rem;
@@ -231,9 +224,7 @@ section {
 }
 
 @media only screen and (max-width: 1024px) {
-    #menu-icon {
-        display: block;
-    }
+    
 
     .navbar {
         position: absolute;
